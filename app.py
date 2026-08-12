@@ -138,5 +138,5 @@ if __name__ == "__main__":
 
     # Render fournit le port via la variable d'environnement PORT.
     # En local (pas de variable PORT), on retombe sur le port par défaut de Gradio.
-    port = int(os.environ.get("PORT", 7860))
+    port = int(os.environ.get("PORT", 4000 ))
     demo.launch(server_name="0.0.0.0", server_port=port)
