@@ -134,4 +134,9 @@ with gr.Blocks(title="Détection de maladies sur feuilles de plantes") as demo:
 
 
 if __name__ == "__main__":
-    demo.launch()
+    import os
+
+    # Render fournit le port via la variable d'environnement PORT.
+    # En local (pas de variable PORT), on retombe sur le port par défaut de Gradio.
+    port = int(os.environ.get("PORT", 7860))
+    demo.launch(server_name="0.0.0.0", server_port=port)
