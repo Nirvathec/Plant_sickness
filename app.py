@@ -21,7 +21,7 @@ from torchvision import transforms
 # Configuration
 # ---------------------------------------------------------------------------
 
-MODEL_PATH = Path(__file__).parent.parent / "models" / "best_model.pth"
+MODEL_PATH = Path(__file__).parent / "models" / "best_model.pth"
 IMG_SIZE = 224
 IMAGENET_MEAN = [0.485, 0.456, 0.406]
 IMAGENET_STD = [0.229, 0.224, 0.225]
