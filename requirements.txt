@@ -1,4 +1,6 @@
-# Deep learning
+# Deep learning (version CPU-only : bien plus légère en mémoire,
+# nécessaire pour tenir dans les 512 Mo de RAM du tier gratuit Render)
+--extra-index-url https://download.pytorch.org/whl/cpu
 torch>=2.0.0
 torchvision>=0.15.0
 timm>=0.9.0
