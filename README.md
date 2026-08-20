@@ -140,7 +140,7 @@ de couleur) :
 
 ```bash
 # Cloner le repo
-git clone https://github.com/TON_USERNAME/plant-sickness.git
+git clone https://github.com/Nirvathec/plant-sickness.git
 cd plant-sickness
 
 # Installer les dépendances
