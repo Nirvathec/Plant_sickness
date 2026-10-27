@@ -200,4 +200,4 @@ réparties sur 15 classes (maladies + état sain) pour la tomate, le poivron et 
 ---
 
 *Projet réalisé dans le cadre de mon portfolio en data science / computer vision.*
-*N'hésite pas à me contacter pour toute question : vergne.clement49@gmail.com*
+*N'hésite pas à me contacter pour toute question : vergne.clement.49@gmail.com*
